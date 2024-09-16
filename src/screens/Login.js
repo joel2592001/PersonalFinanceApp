@@ -10,6 +10,7 @@ const Login = () => {
             <TouchableOpacity  onPress={toggleTheme}>
                 <Text style={{color: theme.colors.textPrimary}}>Toggle Theme</Text>
             </TouchableOpacity>
+            <Text>Joel</Text>
         </View>
     );
 };
