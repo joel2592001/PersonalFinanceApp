@@ -10,6 +10,7 @@ dist/
 web-build/
 
 # Native
+android/                     # Ignore Android folder
 *.orig.*
 *.jks
 *.p8
@@ -49,6 +50,7 @@ dist/
 web-build/
 
 # Native
+android/                     # Ignore Android folder
 *.orig.*
 *.jks
 *.p8
