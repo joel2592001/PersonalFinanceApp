@@ -1,25 +1,42 @@
 // src/theme/typography.js
 import { StyleSheet } from 'react-native';
-import colors from './colors';
 
 export default StyleSheet.create({
-  header: {
+  h1: {
     fontSize: 32,
-    fontWeight: 'bold',
-    color: colors.textPrimary,
+    lineHeight: 40,
+    letterSpacing: 0.5,
+    fontFamily: 'Prompt-SemiBold',
   },
-  subheader: {
+  h2: {
+    fontSize: 28,
+    lineHeight: 36,
+    letterSpacing: 0.5,
+    fontFamily: 'Prompt-Regular',
+  },
+  h3: {
     fontSize: 24,
-    fontWeight: '600',
-    color: colors.textSecondary,
+    lineHeight: 32,
+    letterSpacing: 0.5,
+    fontFamily: 'Prompt-Regular',
   },
-  body: {
+  body1: {
     fontSize: 16,
-    color: colors.textPrimary,
+    lineHeight: 24,
+    letterSpacing: 0.25,
+    fontFamily: 'Prompt-Regular',
+  },
+  body2: {
+    fontSize: 14,
+    lineHeight: 22,
+    letterSpacing: 0.25,
+    fontFamily: 'Prompt-Regular',
   },
   caption: {
     fontSize: 12,
-    color: colors.textSecondary,
+    lineHeight: 18,
+    letterSpacing: 0.4,
+    fontFamily: 'Prompt-Regular',
   },
-  // Add more typography styles as needed
+
 });

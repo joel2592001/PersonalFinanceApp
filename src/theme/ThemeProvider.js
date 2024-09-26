@@ -8,7 +8,7 @@ export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(themes.light);
 
   const toggleTheme = () => {
-    setTheme(theme === themes.light ? themes.dark : themes.light);
+    setTheme((prevTheme) => (prevTheme === themes.light ? themes.dark : themes.light));
   };
 
   return (
@@ -18,4 +18,5 @@ export const ThemeProvider = ({ children }) => {
   );
 };
 
+// Custom hook to use the theme in components
 export const useTheme = () => useContext(ThemeContext);

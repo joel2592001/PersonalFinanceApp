@@ -4,6 +4,6 @@ export default {
   secondary: '#FDCD83',
   background: '#FFFCF3',
   textPrimary: '#333333',
-  textSecondary: '#bdc3c7',
+  textSecondary: '#554B58',
   
 };

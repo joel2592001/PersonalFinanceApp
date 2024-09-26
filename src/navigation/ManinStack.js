@@ -17,8 +17,6 @@ const MainStack = () => {
     >
       {/* <Stack.Screen name="Login" component={Login} options={{headerShown: false}}/> */}
       <Stack.Screen name="Login" component={Screens.Login} options={{headerShown: false}}/>
-      <Stack.Screen name="Home" component={Screens.HomeScreen} />
-      <Stack.Screen name="Details" component={Screens.DetailsScreen} />
     </Stack.Navigator>
   );
 };

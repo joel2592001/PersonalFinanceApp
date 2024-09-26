@@ -1,9 +1,8 @@
 // src/theme/colors.js
 export default {
-  primary: '#3498db',
-  secondary: '#3E065F',
+  primary: '#18061E',
+  secondary: '#380E47',
   background: '#000000',
-  textPrimary: '#ffffff',
-  textSecondary: '#7f8c8d',
-
+  textPrimary: '#FFFFFF',
+  textSecondary: '#554B58',
 };
